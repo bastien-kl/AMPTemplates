@@ -9,8 +9,8 @@
         "DefaultValue": "true",
         "Placeholder": "true",
         "EnumValues": {
-            "true": "True",
-            "false": "False"
+            "true": "true",
+            "false": "false"
         }
     },
 	{
@@ -24,8 +24,8 @@
         "DefaultValue": "false",
         "Placeholder": "false",
         "EnumValues": {
-            "true": "True",
-            "false": "False"
+            "true": "true",
+            "false": "false"
         }
     },
 	{
@@ -39,8 +39,8 @@
         "DefaultValue": "false",
         "Placeholder": "false",
         "EnumValues": {
-            "true": "True",
-            "false": "False"
+            "true": "true",
+            "false": "false"
         }
     },
 	{
@@ -54,8 +54,8 @@
         "DefaultValue": "true",
         "Placeholder": "true",
         "EnumValues": {
-            "true": "True",
-            "false": "False"
+            "true": "true",
+            "false": "false"
         }
     },
 	{
@@ -69,8 +69,8 @@
         "DefaultValue": "true",
         "Placeholder": "true",
         "EnumValues": {
-            "true": "True",
-            "false": "False"
+            "true": "true",
+            "false": "false"
         }
     },
 	{
@@ -224,8 +224,8 @@
         "DefaultValue": "true",
         "Placeholder": "true",
         "EnumValues": {
-            "true": "True",
-            "false": "False"
+            "true": "true",
+            "false": "false"
         }
     },
 	{
@@ -244,8 +244,8 @@
         "Hidden": false,
         "SkipIfEmpty": true,
         "EnumValues": {
-            "true": "True",
-            "false": "False"
+            "true": "true",
+            "false": "false"
         }
     },
 	{
@@ -264,10 +264,30 @@
         "Hidden": false,
         "SkipIfEmpty": true,
         "EnumValues": {
-            "true": "True",
-            "false": "False"
+            "true": "true",
+            "false": "false"
         }
     },
+	{
+		"DisplayName": "Enable LeaderboardsDB",
+		"Category": "MHServerEMU:stadia_controller",
+		"Description": "Enables or disables leaderboards",
+		"Keywords": "leaderboards,mysql",
+		"FieldName": "LeaderboardsEnabled",
+		"InputType": "checkbox",
+		"IsFlagArgument": false,
+		"ParamFieldName": "GameOptions.UseMySqlDBManager",
+		"IncludeInCommandLine": false,
+		"DefaultValue": "true",
+		"Placeholder": "true",
+		"Suffix": "",
+		"Hidden": false,
+		"SkipIfEmpty": true,
+		"EnumValues": {
+			"true": "true",
+			"false": "false"
+		}
+	},
 	{
         "DisplayName": "Client mismatch enforcement",
         "Category": "MHServerEMU:stadia_controller",
@@ -284,8 +304,8 @@
         "Hidden": false,
         "SkipIfEmpty": true,
         "EnumValues": {
-            "true": "True",
-            "false": "False"
+            "true": "true",
+            "false": "false"
         }
     },
 	{
@@ -304,8 +324,8 @@
         "Hidden": true,
         "SkipIfEmpty": true,
         "EnumValues": {
-            "true": "True",
-            "false": "False"
+            "true": "true",
+            "false": "false"
         }
     },
 	{
@@ -324,8 +344,8 @@
         "Hidden": true,
         "SkipIfEmpty": true,
         "EnumValues": {
-            "true": "True",
-            "false": "False"
+            "true": "true",
+            "false": "false"
         }
     },
 	{
@@ -344,8 +364,8 @@
         "Hidden": true,
         "SkipIfEmpty": true,
         "EnumValues": {
-            "true": "True",
-            "false": "False"
+            "true": "true",
+            "false": "false"
         }
     },
     {
@@ -381,8 +401,8 @@
         "Hidden": false,
         "SkipIfEmpty": true,
         "EnumValues": {
-            "true": "True",
-            "false": "False"
+            "true": "true",
+            "false": "false"
         }
     },
 	{
