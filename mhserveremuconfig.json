@@ -491,14 +491,14 @@
         "EnumValues": {}
     },
     {
-        "DisplayName": "MOTD Username",
+        "DisplayName": "MOTD Servername",
         "Category": "MHServerEMU:stadia_controller",
         "Description": "Sets the username of the login announcement",
-        "Keywords": "motd,username",
-        "FieldName": "MotdPlayerName",
+        "Keywords": "motd,servername",
+        "FieldName": "Servername",
         "InputType": "text",
         "IsFlagArgument": false,
-        "ParamFieldName": "GroupingManager.MotdPlayerName",
+        "ParamFieldName": "GroupingManager.ServerName",
         "IncludeInCommandLine": false,
         "DefaultValue": "MHServerEmu",
         "Placeholder": "MHServerEmu",
