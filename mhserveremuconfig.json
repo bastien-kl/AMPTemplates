@@ -209,7 +209,7 @@
         "FieldName": "Port",
         "InputType": "text",
         "IsFlagArgument": false,
-        "ParamFieldName": "WebFront.Port",
+        "ParamFieldName": "WebFrontend.Port",
         "IncludeInCommandLine": false,
         "DefaultValue": "6969",
         "Placeholder": "6969",
