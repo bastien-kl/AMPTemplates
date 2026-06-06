@@ -4,5 +4,11 @@
         "ConfigType": "ini",
 		"Importable": true,
         "AutoMap": true,
+    },
+    {
+        "ConfigFile": "Data\Leaderboards\LeaderboardSchedule.json",
+        "ConfigType": "json",
+        "Importable": true,
+        "AutoMap": true,
     }
 ]

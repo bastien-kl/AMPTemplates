@@ -71,8 +71,8 @@ Console.AutoRetryCount=5
 Console.SleepStartThresholdSeconds=25
 Console.AppReadyRegex=^.*AuthServer is listening.*$
 Console.UserJoinRegex=^.*(\[PlayerManagerService\] Successful auth for client \[Account=(?<username>[a-z|A-Z|0-9]+).* \((?<userid>[a-z|A-Z|0-9]+).*SessionId=(?<sessionid>[a-z|A-Z|0-9]+)).*$
-Console.UserLeaveRegex=^.*(Removed frontend client \[Account=(?<username>[a-z|A-Z|0-9]+).* \((?<userid>[a-z|A-Z|0-9]+).*SessionId=(?<sessionid>[a-z|A-Z|0-9]+)).* from game.*serverGameId=(?<serverid>[a-z|A-Z|0-9]+).*$
-Console.UserChatRegex=^.*(\[GroupingManagerService\] \[LOCAL\] \[(?<username>[a-z|A-Z|0-9]+)).+: (?<message>.*)$
+Console.UserLeaveRegex=^.*(Removed PlayerHandle \[.*Account=(?<username>[a-z|A-Z|0-9]+).* \((?<userid>[a-z|A-Z|0-9]+).*SessionId=(?<sessionid>[a-z|A-Z|0-9]+)).*]
+Console.UserChatRegex=^.*(\[GroupingManagerService\] \[(LOCAL|GLOBAL)\] \[(?<username>[a-z|A-Z|0-9]+)).+: (?<message>.*)$
 Meta.ConfigManifest=mhserveremuconfig.json
 Meta.MetaConfigManifest=mhserveremumetaconfig.json
 Meta.ConfigRoot=mhserveremu.kvp
