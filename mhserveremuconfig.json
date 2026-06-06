@@ -206,7 +206,7 @@
         "Category": "MHServerEMU:stadia_controller",
         "Description": "Port for the auth server to listen on",
         "Keywords": "auth,port",
-        "FieldName": "EnableLogging",
+        "FieldName": "Port",
         "InputType": "text",
         "ParamFieldName": "WebFront.Port",
         "DefaultValue": "8080",
