@@ -206,7 +206,7 @@
         "Category": "MHServerEMU:stadia_controller",
         "Description": "Port for the webserver to bind to",
         "Keywords": "auth,port",
-        "FieldName": "Port",
+        "FieldName": "WebFrontendPort",
         "InputType": "text",
         "IsFlagArgument": false,
         "ParamFieldName": "WebFrontend.Port",
