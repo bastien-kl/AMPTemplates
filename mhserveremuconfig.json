@@ -543,4 +543,35 @@
         "Placeholder":"0.3.0 | 0.3.0test",
         "Required":true,
         "EnumValues":{}
-    }]
+    },
+    {
+        "DisplayName": "Dotnet Release Stream",
+        "Category": "Updates",
+        "Subcategory": "Server Updates:build:-1",
+        "Description": "Sets the .NET release stream from which to install the latest .NET SDK version, unless a specific version is specified under Dotnet Version.",
+        "Keywords": "dotnet,release,stream",
+        "FieldName": "DotnetRelease",
+        "InputType": "enum",
+        "ParamFieldName": "DotnetRelease",
+        "IncludeInCommandLine": false,
+        "DefaultValue": "8.0",
+        "EnumValues": {
+            "8.0": "8.0 (default)"
+        }
+    },
+    {
+        "DisplayName": "Dotnet Version",
+        "Category": "Updates",
+        "Subcategory": "Server Updates:build:-1",
+        "Description": "Sets the .NET SDK [8.0](https://dotnet.microsoft.com/en-us/download/dotnet/8.0) version to install. Empty = latest version for the release stream specified under Dotnet Release Stream.",
+        "Keywords": "dotnet,version",
+        "FieldName": "DotnetSDKVersion",
+        "InputType": "text",
+        "IsFlagArgument": false,
+        "ParamFieldName": "DotnetSDKVersion",
+        "IncludeInCommandLine": false,
+        "DefaultValue": "",
+        "Placeholder": "8.0.421",
+        "EnumValues": {}
+    }
+]
