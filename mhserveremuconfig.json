@@ -202,7 +202,7 @@
         "EnumValues": {}
     },
 	{
-        "DisplayName": "Auth Port",
+        "DisplayName": "Web Frontend Port",
         "Category": "MHServerEMU:stadia_controller",
         "Description": "Port for the webserver to bind to",
         "Keywords": "auth,port",
@@ -211,8 +211,8 @@
         "IsFlagArgument": false,
         "ParamFieldName": "WebFrontend.Port",
         "IncludeInCommandLine": false,
-        "DefaultValue": "6969",
-        "Placeholder": "6969",
+        "DefaultValue": "8090",
+        "Placeholder": "8090",
         "Suffix": "",
         "Hidden": false,
         "SkipIfEmpty": true,
