@@ -77,8 +77,8 @@ Meta.ConfigManifest=mhserveremuconfig.json
 Meta.MetaConfigManifest=mhserveremumetaconfig.json
 Meta.ConfigRoot=mhserveremu.kvp
 Meta.DisplayImageSource=url:https://images.squarespace-cdn.com/content/v1/5985346fdb29d60e9d206ab3/1503506895353-M0KQUTDJO5VVPV5DD42Q/bg-registration-omega.jpg?format=2500w
-App.RootDir=./mhserveremu/
-App.BaseDirectory=./mhserveremu/
+App.RootDir=./mhserveremu/src/MHServerEmu/bin/x64/Release/net8.0/
+App.BaseDirectory=./mhserveremu/src/MHServerEmu/bin/x64/Release/net8.0/
 App.WorkingDir=
 App.ExecutableWin=MHServerEmu.exe
 App.ExecutableLinux=start.sh
